@@ -16,7 +16,7 @@ def cartesian_polar(x, y):
 print('1 - for polar to cartsian')
 print('2 - for cartesian to polar')
 choice = input('Enter choice : ')
-
+b = 0
 if choice == '1':
     r = input('Enter r : ')
     angle = input('Enter angle : ')
@@ -31,3 +31,4 @@ elif choice == '2':
     print('Angl : ' + str(angle))
 else:
     print('wrong choice!!')
+1
